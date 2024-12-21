@@ -1,0 +1,5 @@
+requests
+flask
+Flask-SQLAlchemy
+Werkzeug
+flask-jwt-extended
