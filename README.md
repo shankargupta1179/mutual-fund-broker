@@ -8,6 +8,8 @@ First clone the repository and run this command
 `pip install -r requirements.txt`
 <br>After successfull installation of requirements , you can use this command to run the app locally 
 `python run.py`
+<br>
+ **Please make sure to set the Rapid Api key and Host in the .env file**
 
 ## Import Postman Collection 
 There is a postman collection json file in the repository . You can login to the Postman tool and just import this file to have the collection on your postman tool
@@ -16,6 +18,9 @@ There is a postman collection json file in the repository . You can login to the
 ![image](https://github.com/user-attachments/assets/98327849-7e15-4a1b-adfc-1574f4559eba)
 
 There is a javascript code written in the login script which sets the access token in the environment avoiding manual copy pasting of token while running the apis 
+
+## End to End test
+To run End to End tests , just open command prompt at the directory where this project resides and run the command `python  test_routes.py` 
 
 
 ## Screenshots of testing 
