@@ -19,7 +19,7 @@ There is a postman collection json file in the repository . You can login to the
 
 There is a javascript code written in the login script which sets the access token in the environment avoiding manual copy pasting of token while running the apis 
 
-## End to End test
+## End to End testing
 To run End to End tests , just open command prompt at the directory where this project resides and run the command `python  test_routes.py` 
 
 
